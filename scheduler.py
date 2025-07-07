@@ -1,3 +1,5 @@
+# Scheduler que ejecuta scraping cada 30 minutos automáticamente
+
 from apscheduler.schedulers.blocking import BlockingScheduler
 import subprocess
 import datetime
