@@ -1,4 +1,5 @@
-
+# 🔍 Scraper estático de books.toscrape.com
+# -*- coding: utf-8 -*-
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -23,6 +24,7 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S"
 )
 
+# Crear carpeta de descargas si no existe
 def scrape_static():
     try:
         url = "https://books.toscrape.com/"
