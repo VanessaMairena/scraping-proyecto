@@ -1,57 +1,59 @@
-# 📝 GUÍA DE INICIO DEL PROYECTO
+# 📘 GUÍA DE INICIO RÁPIDO – Proyecto de Scraping Inteligente
 
-**Nombre del Proyecto:** Scraping Web Dinámico y Estático con PostgreSQL + Azure OpenAI  
 **Autora:** Vanessa Mairena Solano  
-**Fecha:** Julio 2025  
+**Carrera:** Ingeniería en Tecnologías de la Información y Comunicación  
+**Universidad:** Universidad Técnica Nacional  
+**Modalidad:** Teórico – práctico | Grupo 1  
+**Docente:** Hugo Zamora
 
 ---
 
-## ✅ REQUISITOS PREVIOS
+## 📌 Requisitos Previos
 
-- Python 3.9 o superior instalado
-- PostgreSQL (local o remoto)
-- Navegador Chrome
-- Archivo `chromedriver.exe` ubicado en `scraper/driver/`
-- Cuenta de Azure OpenAI activa (API Key)
+Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
+
+- Python 3.9 o superior  
+- PostgreSQL 12 o superior  
+- Navegador Google Chrome  
+- `chromedriver` compatible con tu versión de Chrome  
+- Cuenta de Azure con acceso a Azure OpenAI y modelo `gpt-4o-mini`
 
 ---
 
-## 📁 ESTRUCTURA DEL PROYECTO
+## 🛠 Instalación del Proyecto
 
+### 1. Clona el repositorio
+```bash
+git clone https://github.com/VanessaMairena/scraping-proyecto.git
+cd scraping-proyecto
 ```
-├── scraper/                # Contiene los scrapers estático y dinámico
-├── data/                   # Resultados en formato JSON
-├── frontend/               # Archivos HTML, JS y CSS del dashboard
-├── api/                    # API Flask para exponer datos
-├── llm/                    # Scripts para análisis con inteligencia artificial
-├── logs/                   # Logs estructurados
-├── downloads/              # Archivos descargados
-├── docs/                   # Documentación como esta guía
-```
 
----
+### 2. Crea y activa el entorno virtual
 
-## ⚙️ PASOS DE INSTALACIÓN
-
-### 1. Crear entorno virtual (opcional pero recomendado)
-
+En **Windows**:
 ```bash
 python -m venv venv
-.env\Scriptsctivate
+venv\Scripts\activate
 ```
 
-### 2. Instalar las dependencias
+En **Linux/Mac**:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Instala las dependencias del proyecto
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Configurar variables de entorno
+### 4. Configura el archivo `.env` con tus credenciales
 
-Crear un archivo `.env` con el siguiente contenido:
+Crea un archivo `.env` en la raíz con lo siguiente:
 
-```
-OPENAI_API_KEY=TU_API_KEY
+```env
+OPENAI_API_KEY=tu_clave_personal
 OPENAI_ENDPOINT=https://voiceflip-openai.openai.azure.com/
 MODEL_NAME=gpt-4o-mini
 API_VERSION=2025-01-01-preview
@@ -60,57 +62,50 @@ DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=scrapingdb
 DB_USER=postgres
-DB_PASSWORD=TU_PASSWORD
+DB_PASSWORD=Mairena12
 ```
 
 ---
 
-## 🚀 USO DEL PROYECTO
+## 🚀 Cómo Ejecutar el Proyecto
 
-### Ejecutar scraper estático
-```bash
-python scraper/scraper_static.py
+| Funcionalidad               | Comando                                              |
+|----------------------------|------------------------------------------------------|
+| Scraping Estático          | `python scraper/scraper_static.py`                  |
+| Scraping Dinámico          | `python scraper/scraper_dynamic.py`                 |
+| API REST JSON              | `python api/json_api_server.py`                     |
+| Dashboard Web              | Abre `frontend/index.html` en el navegador          |
+| Ejecutar con Scheduler     | `python scheduler.py`                               |
+| Generar selectores con LLM | `python llm/llm_selector.py`                        |
+
+---
+
+## 📂 Estructura Relevante
+
 ```
-
-### Ejecutar scraper dinámico
-```bash
-python scraper/scraper_dynamic.py
-```
-
-### Ejecutar API Flask
-```bash
-python api/json_api_server.py
-```
-
-### Ejecutar dashboard web
-Abrir el archivo `frontend/index.html` en el navegador.
-
-### Ejecutar scheduler cada 30 minutos
-```bash
-python scheduler.py
-```
-
-### Ejecutar análisis con LLM
-```bash
-python llm/llm_selector.py
+├── scraper/              # Scrapers dinámico y estático
+├── llm/                  # Generador de selectores con LLM
+├── api/                  # API Flask con salida JSON
+├── frontend/             # Interfaz visual en HTML, CSS y JS
+├── logs/                 # Logs del sistema en formato JSON
+├── data/                 # Archivos JSON exportados
+├── downloads/            # Archivos descargados
+├── scheduler.py          # Automatizador cada 30 min
+├── .env                  # Variables sensibles (no subir a GitHub)
 ```
 
 ---
 
-## 💾 RESPALDO DE BASE DE DATOS
+## 🧠 Notas Importantes
 
-Exportar la base de datos desde pgAdmin o CLI:
-
-- Archivo `.sql` o `.backup` para incluirlo en la entrega.
-- Guardar dentro de `docs/` con nombre: `respaldo.sql`
-
----
-
-## 📞 SOPORTE
-
-Para cualquier duda, contactar a:  
-**Vanessa Mairena Solano** – Grupo 1 – Universidad Técnica Nacional
+- La API se ejecuta localmente en `http://127.0.0.1:5000/api/productos`
+- El `scheduler.py` ejecuta ambos scrapers automáticamente cada 30 minutos
+- El archivo `.env` **nunca debe subirse a GitHub**
+- Verifica siempre que `chromedriver.exe` sea compatible con tu versión de Chrome
+- El dashboard se actualiza con los datos de `data/results.json`
 
 ---
 
-¡Gracias por revisar este proyecto!
+## ❓ Soporte
+
+Para dudas técnicas o errores, puedes contactar a Vanessa Mairena o consultar la documentación técnica en el `README.md`.

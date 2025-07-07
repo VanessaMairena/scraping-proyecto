@@ -61,14 +61,14 @@ Este proyecto realiza scraping de sitios web **dinámicos** (JavaScript) y **est
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tuusuario/tu-repo.git
-cd tu-repo
+git clone https://github.com/VanessaMairena/scraping-proyecto.git
+cd scraping-proyecto
 ```
 
 2. Crea y activa entorno virtual:
 ```bash
 python -m venv venv
-.env\Scriptsctivate  # Windows
+venv\Scripts\activate  # Windows
 ```
 
 3. Instala las dependencias:
@@ -88,7 +88,7 @@ DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=scrapingdb
 DB_USER=postgres
-DB_PASSWORD=tu_contraseña
+DB_PASSWORD=Mairena12
 ```
 
 ---
@@ -144,7 +144,7 @@ Se utiliza PostgreSQL con dos tablas principales:
 
 ## ✅ Créditos
 
-Este proyecto fue desarrollado como parte del curso de Computación en la Nube en la **Universidad Técnica Nacional**, Grupo 1.
+Este proyecto fue desarrollado por **Vanessa Mairena Solano** como parte del curso de Computación en la Nube en la **Universidad Técnica Nacional**, Grupo 1.
 
 ---
 
@@ -156,4 +156,4 @@ El video de funcionamiento del sistema se encuentra disponible y adjunto como pa
 
 ## 📤 Subido a GitHub
 
-Repositorio disponible en: [https://github.com/tuusuario/tu-repo](#)
+Repositorio disponible en: [https://github.com/VanessaMairena/scraping-proyecto](https://github.com/VanessaMairena/scraping-proyecto)
