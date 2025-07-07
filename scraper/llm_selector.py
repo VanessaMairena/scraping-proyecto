@@ -1,3 +1,4 @@
+# Este archivo utiliza Azure OpenAI para generar selectores dinámicos
 import openai
 import os
 from dotenv import load_dotenv
