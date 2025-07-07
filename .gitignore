@@ -1,0 +1,18 @@
+# Evitar subir llaves o secretos
+.env
+
+# Evitar subir la carpeta del entorno virtual
+venv/
+.env/
+
+# Archivos de base de datos o logs
+*.sqlite3
+*.log
+
+# Archivos del sistema o temporales
+__pycache__/
+*.pyc
+.DS_Store
+
+# Otros
+*.bak
