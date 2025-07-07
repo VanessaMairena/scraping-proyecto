@@ -1,3 +1,5 @@
+# Archivo de API para exponer datos JSON del scraping
+
 from flask import Flask, jsonify
 from flask_cors import CORS
 import psycopg2
