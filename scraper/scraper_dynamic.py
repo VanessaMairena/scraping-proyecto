@@ -17,6 +17,7 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
+# Crear carpeta de descargas si no existe
 def descargar_imagen(titulo, url_imagen):
     try:
         if not url_imagen.startswith("http"):
@@ -48,6 +49,7 @@ def guardar_en_bd(titulo, precio):
     except Exception as e:
         logging.error(f"❌ Error al guardar en BD (dynamic): {e}")
 
+# Crear carpeta de descargas si no existe
 def scrape_dynamic():
     options = Options()
     options.add_argument("--headless")
@@ -76,6 +78,7 @@ def scrape_dynamic():
         print("❌ Error en scraping dinámico:", e)
     finally:
         driver.quit()
+
 
 if __name__ == "__main__":
     scrape_dynamic()
