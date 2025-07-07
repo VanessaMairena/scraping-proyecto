@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Scraping dinámico",
+    "start": "2025-07-07T09:00:00",
+    "description": "Extracción desde sitio con Selenium"
+  },
+  {
+    "title": "Scraping estático",
+    "start": "2025-07-07T10:00:00",
+    "description": "Extracción desde sitio estático con BeautifulSoup"
+  },
+  {
+    "title": "Análisis con LLM",
+    "start": "2025-07-07T10:30:00",
+    "description": "Generación de selectores automáticos"
+  }
+]

@@ -1,0 +1,73 @@
+2025-07-07 14:38:00,339 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-07 14:38:00,341 - INFO - Added job "ejecutar_scrapings" to job store "default"
+2025-07-07 14:38:00,341 - INFO - Scheduler started
+2025-07-07 14:38:30,341 - INFO - Running job "ejecutar_scrapings (trigger: interval[0:00:30], next run at: 2025-07-07 14:38:30 CST)" (scheduled at 2025-07-07 14:38:30.339443-06:00)
+2025-07-07 14:38:30,341 - INFO - Iniciando scraping...
+2025-07-07 14:38:31 [STATIC] INFO: Se guardaron 20 libros en data/results.json
+2025-07-07 14:38:31 [STATIC] INFO: Datos guardados en PostgreSQL con éxito.
+2025-07-07 14:38:31,458 - INFO - Scraping estático completado.
+2025-07-07 14:38:36,917 - WARNING - No se pudo descargar la imagen de A Light in the Attic: Invalid URL 'media/cache/2c/da/2cdad67c44b002e7ead0cc35693c0e8b.jpg': No scheme supplied. Perhaps you meant https://media/cache/2c/da/2cdad67c44b002e7ead0cc35693c0e8b.jpg?
+2025-07-07 14:38:36,921 - WARNING - No se pudo descargar la imagen de Tipping the Velvet: Invalid URL 'media/cache/26/0c/260c6ae16bce31c8f8c95daddd9f4a1c.jpg': No scheme supplied. Perhaps you meant https://media/cache/26/0c/260c6ae16bce31c8f8c95daddd9f4a1c.jpg?
+2025-07-07 14:38:36,922 - WARNING - No se pudo descargar la imagen de Soumission: Invalid URL 'media/cache/3e/ef/3eef99c9d9adef34639f510662022830.jpg': No scheme supplied. Perhaps you meant https://media/cache/3e/ef/3eef99c9d9adef34639f510662022830.jpg?
+2025-07-07 14:38:36,923 - WARNING - No se pudo descargar la imagen de Sharp Objects: Invalid URL 'media/cache/32/51/3251cf3a3412f53f339e42cac2134093.jpg': No scheme supplied. Perhaps you meant https://media/cache/32/51/3251cf3a3412f53f339e42cac2134093.jpg?
+2025-07-07 14:38:36,924 - WARNING - No se pudo descargar la imagen de Sapiens: A Brief History of Humankind: Invalid URL 'media/cache/be/a5/bea5697f2534a2f86a3ef27b5a8c12a6.jpg': No scheme supplied. Perhaps you meant https://media/cache/be/a5/bea5697f2534a2f86a3ef27b5a8c12a6.jpg?
+2025-07-07 14:38:36,924 - WARNING - No se pudo descargar la imagen de The Requiem Red: Invalid URL 'media/cache/68/33/68339b4c9bc034267e1da611ab3b34f8.jpg': No scheme supplied. Perhaps you meant https://media/cache/68/33/68339b4c9bc034267e1da611ab3b34f8.jpg?
+2025-07-07 14:38:36,925 - WARNING - No se pudo descargar la imagen de The Dirty Little Secrets of Getting Your Dream Job: Invalid URL 'media/cache/92/27/92274a95b7c251fea59a2b8a78275ab4.jpg': No scheme supplied. Perhaps you meant https://media/cache/92/27/92274a95b7c251fea59a2b8a78275ab4.jpg?
+2025-07-07 14:38:36,926 - WARNING - No se pudo descargar la imagen de The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull: Invalid URL 'media/cache/3d/54/3d54940e57e662c4dd1f3ff00c78cc64.jpg': No scheme supplied. Perhaps you meant https://media/cache/3d/54/3d54940e57e662c4dd1f3ff00c78cc64.jpg?
+2025-07-07 14:38:36,927 - WARNING - No se pudo descargar la imagen de The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics: Invalid URL 'media/cache/66/88/66883b91f6804b2323c8369331cb7dd1.jpg': No scheme supplied. Perhaps you meant https://media/cache/66/88/66883b91f6804b2323c8369331cb7dd1.jpg?
+2025-07-07 14:38:36,928 - WARNING - No se pudo descargar la imagen de The Black Maria: Invalid URL 'media/cache/58/46/5846057e28022268153beff6d352b06c.jpg': No scheme supplied. Perhaps you meant https://media/cache/58/46/5846057e28022268153beff6d352b06c.jpg?
+2025-07-07 14:38:36,928 - WARNING - No se pudo descargar la imagen de Starving Hearts (Triangular Trade Trilogy, #1): Invalid URL 'media/cache/be/f4/bef44da28c98f905a3ebec0b87be8530.jpg': No scheme supplied. Perhaps you meant https://media/cache/be/f4/bef44da28c98f905a3ebec0b87be8530.jpg?
+2025-07-07 14:38:36,929 - WARNING - No se pudo descargar la imagen de Shakespeare's Sonnets: Invalid URL 'media/cache/10/48/1048f63d3b5061cd2f424d20b3f9b666.jpg': No scheme supplied. Perhaps you meant https://media/cache/10/48/1048f63d3b5061cd2f424d20b3f9b666.jpg?
+2025-07-07 14:38:36,930 - WARNING - No se pudo descargar la imagen de Set Me Free: Invalid URL 'media/cache/5b/88/5b88c52633f53cacf162c15f4f823153.jpg': No scheme supplied. Perhaps you meant https://media/cache/5b/88/5b88c52633f53cacf162c15f4f823153.jpg?
+2025-07-07 14:38:36,931 - WARNING - No se pudo descargar la imagen de Scott Pilgrim's Precious Little Life (Scott Pilgrim #1): Invalid URL 'media/cache/94/b1/94b1b8b244bce9677c2f29ccc890d4d2.jpg': No scheme supplied. Perhaps you meant https://media/cache/94/b1/94b1b8b244bce9677c2f29ccc890d4d2.jpg?
+2025-07-07 14:38:36,932 - WARNING - No se pudo descargar la imagen de Rip it Up and Start Again: Invalid URL 'media/cache/81/c4/81c4a973364e17d01f217e1188253d5e.jpg': No scheme supplied. Perhaps you meant https://media/cache/81/c4/81c4a973364e17d01f217e1188253d5e.jpg?
+2025-07-07 14:38:36,933 - WARNING - No se pudo descargar la imagen de Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991: Invalid URL 'media/cache/54/60/54607fe8945897cdcced0044103b10b6.jpg': No scheme supplied. Perhaps you meant https://media/cache/54/60/54607fe8945897cdcced0044103b10b6.jpg?
+2025-07-07 14:38:36,934 - WARNING - No se pudo descargar la imagen de Olio: Invalid URL 'media/cache/55/33/553310a7162dfbc2c6d19a84da0df9e1.jpg': No scheme supplied. Perhaps you meant https://media/cache/55/33/553310a7162dfbc2c6d19a84da0df9e1.jpg?
+2025-07-07 14:38:36,935 - WARNING - No se pudo descargar la imagen de Mesaerion: The Best Science Fiction Stories 1800-1849: Invalid URL 'media/cache/09/a3/09a3aef48557576e1a85ba7efea8ecb7.jpg': No scheme supplied. Perhaps you meant https://media/cache/09/a3/09a3aef48557576e1a85ba7efea8ecb7.jpg?
+2025-07-07 14:38:36,936 - WARNING - No se pudo descargar la imagen de Libertarianism for Beginners: Invalid URL 'media/cache/0b/bc/0bbcd0a6f4bcd81ccb1049a52736406e.jpg': No scheme supplied. Perhaps you meant https://media/cache/0b/bc/0bbcd0a6f4bcd81ccb1049a52736406e.jpg?
+2025-07-07 14:38:36,937 - WARNING - No se pudo descargar la imagen de It's Only the Himalayas: Invalid URL 'media/cache/27/a5/27a53d0bb95bdd88288eaf66c9230d7e.jpg': No scheme supplied. Perhaps you meant https://media/cache/27/a5/27a53d0bb95bdd88288eaf66c9230d7e.jpg?
+2025-07-07 14:38:36,939 - INFO - \u2705 Scraping dinámico completado y datos guardados.
+2025-07-07 14:38:39,083 - INFO - Scraping dinámico completado.
+2025-07-07 14:38:39,083 - INFO - Scraping completo.
+
+2025-07-07 14:38:39,083 - INFO - Job "ejecutar_scrapings (trigger: interval[0:00:30], next run at: 2025-07-07 14:39:00 CST)" executed successfully
+2025-07-07 14:39:00,345 - INFO - Running job "ejecutar_scrapings (trigger: interval[0:00:30], next run at: 2025-07-07 14:39:30 CST)" (scheduled at 2025-07-07 14:39:00.339443-06:00)
+2025-07-07 14:39:00,345 - INFO - Iniciando scraping...
+2025-07-07 14:39:01 [STATIC] INFO: Se guardaron 20 libros en data/results.json
+2025-07-07 14:39:01 [STATIC] INFO: Datos guardados en PostgreSQL con éxito.
+2025-07-07 14:39:01,381 - INFO - Scraping estático completado.
+2025-07-07 14:39:06,909 - WARNING - No se pudo descargar la imagen de A Light in the Attic: Invalid URL 'media/cache/2c/da/2cdad67c44b002e7ead0cc35693c0e8b.jpg': No scheme supplied. Perhaps you meant https://media/cache/2c/da/2cdad67c44b002e7ead0cc35693c0e8b.jpg?
+2025-07-07 14:39:06,912 - WARNING - No se pudo descargar la imagen de Tipping the Velvet: Invalid URL 'media/cache/26/0c/260c6ae16bce31c8f8c95daddd9f4a1c.jpg': No scheme supplied. Perhaps you meant https://media/cache/26/0c/260c6ae16bce31c8f8c95daddd9f4a1c.jpg?
+2025-07-07 14:39:06,914 - WARNING - No se pudo descargar la imagen de Soumission: Invalid URL 'media/cache/3e/ef/3eef99c9d9adef34639f510662022830.jpg': No scheme supplied. Perhaps you meant https://media/cache/3e/ef/3eef99c9d9adef34639f510662022830.jpg?
+2025-07-07 14:39:06,915 - WARNING - No se pudo descargar la imagen de Sharp Objects: Invalid URL 'media/cache/32/51/3251cf3a3412f53f339e42cac2134093.jpg': No scheme supplied. Perhaps you meant https://media/cache/32/51/3251cf3a3412f53f339e42cac2134093.jpg?
+2025-07-07 14:39:06,916 - WARNING - No se pudo descargar la imagen de Sapiens: A Brief History of Humankind: Invalid URL 'media/cache/be/a5/bea5697f2534a2f86a3ef27b5a8c12a6.jpg': No scheme supplied. Perhaps you meant https://media/cache/be/a5/bea5697f2534a2f86a3ef27b5a8c12a6.jpg?
+2025-07-07 14:39:06,917 - WARNING - No se pudo descargar la imagen de The Requiem Red: Invalid URL 'media/cache/68/33/68339b4c9bc034267e1da611ab3b34f8.jpg': No scheme supplied. Perhaps you meant https://media/cache/68/33/68339b4c9bc034267e1da611ab3b34f8.jpg?
+2025-07-07 14:39:06,919 - WARNING - No se pudo descargar la imagen de The Dirty Little Secrets of Getting Your Dream Job: Invalid URL 'media/cache/92/27/92274a95b7c251fea59a2b8a78275ab4.jpg': No scheme supplied. Perhaps you meant https://media/cache/92/27/92274a95b7c251fea59a2b8a78275ab4.jpg?
+2025-07-07 14:39:06,920 - WARNING - No se pudo descargar la imagen de The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull: Invalid URL 'media/cache/3d/54/3d54940e57e662c4dd1f3ff00c78cc64.jpg': No scheme supplied. Perhaps you meant https://media/cache/3d/54/3d54940e57e662c4dd1f3ff00c78cc64.jpg?
+2025-07-07 14:39:06,922 - WARNING - No se pudo descargar la imagen de The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics: Invalid URL 'media/cache/66/88/66883b91f6804b2323c8369331cb7dd1.jpg': No scheme supplied. Perhaps you meant https://media/cache/66/88/66883b91f6804b2323c8369331cb7dd1.jpg?
+2025-07-07 14:39:06,923 - WARNING - No se pudo descargar la imagen de The Black Maria: Invalid URL 'media/cache/58/46/5846057e28022268153beff6d352b06c.jpg': No scheme supplied. Perhaps you meant https://media/cache/58/46/5846057e28022268153beff6d352b06c.jpg?
+2025-07-07 14:39:06,925 - WARNING - No se pudo descargar la imagen de Starving Hearts (Triangular Trade Trilogy, #1): Invalid URL 'media/cache/be/f4/bef44da28c98f905a3ebec0b87be8530.jpg': No scheme supplied. Perhaps you meant https://media/cache/be/f4/bef44da28c98f905a3ebec0b87be8530.jpg?
+2025-07-07 14:39:06,926 - WARNING - No se pudo descargar la imagen de Shakespeare's Sonnets: Invalid URL 'media/cache/10/48/1048f63d3b5061cd2f424d20b3f9b666.jpg': No scheme supplied. Perhaps you meant https://media/cache/10/48/1048f63d3b5061cd2f424d20b3f9b666.jpg?
+2025-07-07 14:39:06,927 - WARNING - No se pudo descargar la imagen de Set Me Free: Invalid URL 'media/cache/5b/88/5b88c52633f53cacf162c15f4f823153.jpg': No scheme supplied. Perhaps you meant https://media/cache/5b/88/5b88c52633f53cacf162c15f4f823153.jpg?
+2025-07-07 14:39:06,929 - WARNING - No se pudo descargar la imagen de Scott Pilgrim's Precious Little Life (Scott Pilgrim #1): Invalid URL 'media/cache/94/b1/94b1b8b244bce9677c2f29ccc890d4d2.jpg': No scheme supplied. Perhaps you meant https://media/cache/94/b1/94b1b8b244bce9677c2f29ccc890d4d2.jpg?
+2025-07-07 14:39:06,930 - WARNING - No se pudo descargar la imagen de Rip it Up and Start Again: Invalid URL 'media/cache/81/c4/81c4a973364e17d01f217e1188253d5e.jpg': No scheme supplied. Perhaps you meant https://media/cache/81/c4/81c4a973364e17d01f217e1188253d5e.jpg?
+2025-07-07 14:39:06,931 - WARNING - No se pudo descargar la imagen de Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991: Invalid URL 'media/cache/54/60/54607fe8945897cdcced0044103b10b6.jpg': No scheme supplied. Perhaps you meant https://media/cache/54/60/54607fe8945897cdcced0044103b10b6.jpg?
+2025-07-07 14:39:06,932 - WARNING - No se pudo descargar la imagen de Olio: Invalid URL 'media/cache/55/33/553310a7162dfbc2c6d19a84da0df9e1.jpg': No scheme supplied. Perhaps you meant https://media/cache/55/33/553310a7162dfbc2c6d19a84da0df9e1.jpg?
+2025-07-07 14:39:06,934 - WARNING - No se pudo descargar la imagen de Mesaerion: The Best Science Fiction Stories 1800-1849: Invalid URL 'media/cache/09/a3/09a3aef48557576e1a85ba7efea8ecb7.jpg': No scheme supplied. Perhaps you meant https://media/cache/09/a3/09a3aef48557576e1a85ba7efea8ecb7.jpg?
+2025-07-07 14:39:06,935 - WARNING - No se pudo descargar la imagen de Libertarianism for Beginners: Invalid URL 'media/cache/0b/bc/0bbcd0a6f4bcd81ccb1049a52736406e.jpg': No scheme supplied. Perhaps you meant https://media/cache/0b/bc/0bbcd0a6f4bcd81ccb1049a52736406e.jpg?
+2025-07-07 14:39:06,936 - WARNING - No se pudo descargar la imagen de It's Only the Himalayas: Invalid URL 'media/cache/27/a5/27a53d0bb95bdd88288eaf66c9230d7e.jpg': No scheme supplied. Perhaps you meant https://media/cache/27/a5/27a53d0bb95bdd88288eaf66c9230d7e.jpg?
+2025-07-07 14:39:06,940 - INFO - \u2705 Scraping dinámico completado y datos guardados.
+2025-07-07 14:39:09,111 - INFO - Scraping dinámico completado.
+2025-07-07 14:39:09,111 - INFO - Scraping completo.
+
+2025-07-07 14:39:09,112 - INFO - Job "ejecutar_scrapings (trigger: interval[0:00:30], next run at: 2025-07-07 14:39:30 CST)" executed successfully
+2025-07-07 14:39:30,348 - INFO - Running job "ejecutar_scrapings (trigger: interval[0:00:30], next run at: 2025-07-07 14:40:00 CST)" (scheduled at 2025-07-07 14:39:30.339443-06:00)
+2025-07-07 14:39:30,349 - INFO - Iniciando scraping...
+2025-07-07 14:39:31 [STATIC] INFO: Se guardaron 20 libros en data/results.json
+2025-07-07 14:39:31 [STATIC] INFO: Datos guardados en PostgreSQL con éxito.
+2025-07-07 14:39:31,361 - INFO - Scraping estático completado.
+2025-07-07 14:39:31,704 - ERROR - Error en scraping dinámico: Command '['python', 'scraper/scraper_dynamic.py']' returned non-zero exit status 3221225786.
+2025-07-07 14:39:31,705 - INFO - Scraping completo.
+
+2025-07-07 14:39:31,705 - INFO - Job "ejecutar_scrapings (trigger: interval[0:00:30], next run at: 2025-07-07 14:40:00 CST)" executed successfully
+2025-07-07 14:45:51,156 - INFO - \u2705 Scraping dinámico completado y datos guardados.
