@@ -1,7 +1,7 @@
 # 💻 Proyecto de Scraping Dinámico y Estático con PostgreSQL + Azure OpenAI
 
 **Autores:** Vanessa Mairena Solano, Justin Rodriguez Gonzalez, Brandon Campos Mendez 
-**Carrera:** Ingeniería en Tecnologías de la Información y Comunicación  
+**Carrera:** Ingeniería en Tecnologías de la Información   
 **Proyecto Final: Web Scraping Inteligente con LLM + Dashboard + API REST**
 
 ---
