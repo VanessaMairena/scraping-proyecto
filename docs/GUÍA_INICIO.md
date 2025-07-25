@@ -1,10 +1,10 @@
 # 📘 GUÍA DE INICIO RÁPIDO – Proyecto de Scraping Inteligente
 
-**Autora:** Vanessa Mairena Solano  
+**Autores:** Vanessa Mairena Solano , Jusin Rodriguez Gonzalez, Brandon Campos mendes 
 **Carrera:** Ingeniería en Tecnologías de la Información y Comunicación  
 **Universidad:** Universidad Técnica Nacional  
 **Modalidad:** Teórico – práctico | Grupo 1  
-**Docente:** Hugo Zamora
+
 
 ---
 
