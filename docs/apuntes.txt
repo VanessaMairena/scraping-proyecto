@@ -1,0 +1,36 @@
+ Comentario General del Proyecto: Web Scraping Inteligente con LLM + Dashboard + API REST
+
+El proyecto desarrollado por Vanessa Mairena Solano, Justin Rodríguez González y Brandon Campos Méndez representa una solución moderna, integral y altamente funcional para la recolección, análisis y visualización de datos web mediante técnicas avanzadas de scraping combinadas con inteligencia artificial. Esta iniciativa, enmarcada dentro del curso de Computación en la Nube de la Universidad Técnica Nacional, se destaca no solo por su estructura técnica robusta, sino también por su enfoque en automatización, escalabilidad y usabilidad real.
+
+🌐 Innovación Técnica con Inteligencia Artificial
+
+Uno de los aspectos más sobresalientes del proyecto es la incorporación de Azure OpenAI con el modelo gpt-4o-mini. Esto permite llevar el scraping tradicional al siguiente nivel, generando selectores CSS/XPath de forma automatizada e inteligente, lo cual reduce la necesidad de intervención humana en la adaptación a cambios estructurales de los sitios web. También se aplica para análisis de productos, lo que representa una fusión eficaz entre scraping clásico y procesamiento semántico.
+
+📡 Scraping Dinámico y Estático
+
+El sistema no se limita a un solo tipo de sitio web. Es capaz de interactuar tanto con páginas estáticas (basadas en HTML puro) como con páginas dinámicas que cargan contenido mediante JavaScript, usando Selenium y chromedriver. Esta dualidad amplía su aplicabilidad en escenarios reales, permitiendo una cobertura amplia de fuentes de datos web.
+
+🧠 Automatización con Scheduler
+
+Otro punto fuerte es el uso de APScheduler, que ejecuta tareas de scraping automáticamente cada 30 minutos, garantizando que la base de datos y los archivos del dashboard estén siempre actualizados. Esto promueve un enfoque de observabilidad continua y respuesta rápida ante cambios en las fuentes externas.
+
+📊 Visualización, API y Logs
+
+El sistema ofrece un dashboard web amigable que consume archivos JSON generados desde el backend, permitiendo la presentación clara de resultados. Además, una API REST en Flask permite que otras aplicaciones accedan a los datos estructurados. Los logs, almacenados en formato JSON estructurado, representan una excelente práctica de ingeniería para mantener trazabilidad y control sobre el comportamiento del sistema.
+
+🗄 Base de Datos y Gestión de Archivos
+
+La base de datos PostgreSQL está bien modelada, con tablas para productos y archivos descargados, incluyendo hashes SHA-256 para verificar integridad. Esto proporciona no solo persistencia de datos, sino también un mecanismo confiable para detección de cambios y gestión eficiente de versiones de archivos descargados.
+
+🚀 Implementación Clara y Documentada
+
+El proyecto está muy bien organizado y documentado. La estructura por carpetas es clara (scraper/, frontend/, llm/, logs/, api/), y existe una guía de inicio para facilitar la implementación por nuevos usuarios. El uso de variables de entorno en .env y dependencias centralizadas en requirements.txt demuestra buenas prácticas de desarrollo.
+
+📚 Formación Académica y Aplicación Profesional
+
+Este proyecto no solo cumple con los requisitos académicos, sino que también puede ser fácilmente extendido para su uso en ambientes reales, como monitoreo de precios, seguimiento de eventos, control de inventarios online, o análisis de competencia. Su desarrollo demuestra la capacidad de los autores para combinar conocimientos de backend, frontend, IA, bases de datos y servicios en la nube en una solución sólida, escalable y funcional.
+
+🔚 Conclusión
+
+En resumen, este proyecto representa un gran ejemplo de integración tecnológica con objetivos claros y resultados tangibles. La combinación de scraping, inteligencia artificial, automatización y visualización lo convierte en una herramienta poderosa y un excelente logro académico. Es un claro reflejo del nivel técnico alcanzado por sus autores y una excelente carta de presentación profesional para oportunidades futuras en el área de desarrollo, análisis de datos o soluciones basadas en IA y nube.
+
