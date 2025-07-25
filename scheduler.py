@@ -6,7 +6,7 @@ import datetime
 import logging
 import os
 
-# Crear carpeta de logs si no existe
+# Crear la carpeta en la que se va a guardar los logs si es que esta no existe 
 os.makedirs("logs", exist_ok=True)
 
 # Configurar logging
