@@ -25,12 +25,3 @@ La base de datos PostgreSQL está bien modelada, con tablas para productos y arc
 🚀 Implementación Clara y Documentada
 
 El proyecto está muy bien organizado y documentado. La estructura por carpetas es clara (scraper/, frontend/, llm/, logs/, api/), y existe una guía de inicio para facilitar la implementación por nuevos usuarios. El uso de variables de entorno en .env y dependencias centralizadas en requirements.txt demuestra buenas prácticas de desarrollo.
-
-📚 Formación Académica y Aplicación Profesional
-
-Este proyecto no solo cumple con los requisitos académicos, sino que también puede ser fácilmente extendido para su uso en ambientes reales, como monitoreo de precios, seguimiento de eventos, control de inventarios online, o análisis de competencia. Su desarrollo demuestra la capacidad de los autores para combinar conocimientos de backend, frontend, IA, bases de datos y servicios en la nube en una solución sólida, escalable y funcional.
-
-🔚 Conclusión
-
-En resumen, este proyecto representa un gran ejemplo de integración tecnológica con objetivos claros y resultados tangibles. La combinación de scraping, inteligencia artificial, automatización y visualización lo convierte en una herramienta poderosa y un excelente logro académico. Es un claro reflejo del nivel técnico alcanzado por sus autores y una excelente carta de presentación profesional para oportunidades futuras en el área de desarrollo, análisis de datos o soluciones basadas en IA y nube.
-
