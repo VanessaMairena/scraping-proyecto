@@ -1,5 +1,11 @@
 # 💻 Proyecto de Scraping Dinámico y Estático con PostgreSQL + Azure OpenAI
 
+<!-- local-development:start -->
+## Desarrollo local
+
+Consulta [RUNNING.md](RUNNING.md) para ubicar cada componente, abrirlo en su IDE, compilarlo y conocer las comprobaciones realizadas y los requisitos pendientes.
+<!-- local-development:end -->
+
 **Autores:** Vanessa Mairena Solano, Justin Rodriguez Gonzalez, Brandon Campos Mendez 
 **Carrera:** Ingeniería en Tecnologías de la Información   
 **Proyecto Final: Web Scraping Inteligente con LLM + Dashboard + API REST**
